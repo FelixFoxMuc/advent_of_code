@@ -9,6 +9,8 @@ humidity_to_location = []
 
 source_file = "input.txt"
 
+source = ""
+
 with open(source_file, "r") as file:
     for line in file:
         line = line.strip()
